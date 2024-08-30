@@ -1,0 +1,112 @@
+/* Defina uma fonte atraente para o texto */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    align-items: center;
+  }
+  
+  /* Adicione um fundo elegante */
+  body {text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* Centralize o conteúdo principal */
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Estilize os títulos */
+  h1, h2, h3 {text-align: center;
+    font-family: "Georgia", serif;
+    color: #333333;
+  }
+  
+  /* Adicione um estilo atraente aos links */
+  a {
+    color: #0088cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilize as imagens */
+  img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Crie um menu de navegação elegante */
+  .navbar {
+    background-color: #af2929;
+    color: #da2727;
+    height: 50px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 50px;
+  }
+  
+  .navbar a {
+    color: #c51515;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #cccccc;
+  }
+  
+  /* Adicione alguns estilos de botão */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #005580;
+  }
+  
+  /* Estilize um formulário de contato */
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b33434;
+    border-radius: 4px;
+  }
+  
+  .contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0088cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #005580;
+  }
+  
+  /* Adicione alguns estilos de rodapé */
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  

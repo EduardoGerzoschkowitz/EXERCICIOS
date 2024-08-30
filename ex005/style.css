@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{font-family: Arial, Helvetica, sans-serif}
+
+    /*Para adicionar o código css separado do html basta linkar o css através da tag <link rel="stylesheet" href="style.css">*/
+h1 {text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:xx-large;}
+h2 {text-align: center;font-family: Arial, Helvetica, sans-serif;}
+ol {text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:larger;}
+h3 {text-decoration: dotted;text-align: center;}
+
+body{text-align: center;
+  background-image:url(espaçosideral.png)}  
+  
+main {text-align: center;
+    background-color: tomato;background-image: linear-gradient(rgb(65, 112, 182),rgb(196, 128, 165));max-width:500px;display: inline-block;border-radius: 10px 20px 30px;}
+    img{border-radius: 50%;
+      width: 300px;
+      height: 300px;}
+
+      
+
+  

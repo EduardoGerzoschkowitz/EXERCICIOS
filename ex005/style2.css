@@ -1,0 +1,50 @@
+@charset "UTF-8";
+*{font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;}
+    
+h2 {text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: xx-large;}
+body{
+text-align: center;background-image:url(espaçosideral.png);}
+
+main {text-align: center;
+    background-color: tomato;background-image: linear-gradient(rgb(65, 112, 182),rgb(196, 128, 165));max-width:700px;display: inline-block;border-radius: 10px 20px 30px;}    
+
+     
+.box{align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%
+    background-#20c21a;
+    position: absolute;
+}
+.box span{
+    position: absolute;
+    top: 400%;
+    left: 400%;
+    width: 800%;
+    height: 200px;
+    border: 10px solid #17c22e;
+    border-radius: 50%;
+    animation: anim 4s infinite;
+}
+.box span:nth-child(1){
+    transform: rotate(-60deg);
+    animation: anim2 4s infinite;
+}
+.box span:nth-child(2){
+    transform: rotate(60deg);
+    animation: anim3 4s infinite;
+}
+@keyframes anim{
+    0%,100%{transform: rotate(0deg);}
+    50%{transform: rotate(360deg);}
+}
+@keyframes anim2{
+    0%,100%{transform: rotate(-60deg);}
+    50%{transform: rotate(-300deg);}
+}
+@keyframes anim3{
+    0%,100%{transform: rotate(60deg);}
+    50%{transform: rotate(300deg);}
+}
